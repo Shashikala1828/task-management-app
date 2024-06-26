@@ -39,7 +39,7 @@
    and,
    - By Uncommenting these lines
    ...*const port = 8080;
-   ...*app.use(cors());
+   ..*app.use(cors());
 
 Then run,
 - npm start
