@@ -18,17 +18,26 @@
 
 ## Documentation
 
-### `To Run the code:[production mode]`
+### `To Run the code in Production Mode`
 - npm run build
 - node server.js
 
 ### `To Run the code in Development Mode`
 1. Make Changes in App.js
-   By Uncommenting this line
-   const backendHost = "http://localhost:8080/api/tasks";
+   -By Commenting this line
+   ...*const backendHost = '/api/tasks';
+
+   and,
+   -By Uncommenting this line
+   ...*const backendHost = "http://localhost:8080/api/tasks";
 
 2. Make Change in Server.js
-   By Uncommenting these lines
-   const port = 8080;
-   app.use(cors());
+   - By Commenting these lines
+   ...*const port = 3000;
+   ...*app.use(express.static(path.join(__dirname, 'build')));
+
+   and,
+   - By Uncommenting these lines
+   ...*const port = 8080;
+   ...*app.use(cors());
 
