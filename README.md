@@ -41,3 +41,7 @@
    ...*const port = 8080;
    ...*app.use(cors());
 
+Then run,
+- npm start
+- node server.js
+
