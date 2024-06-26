@@ -18,7 +18,7 @@
 
 ## Documentation
 
-### `To Run the code in Production Mode`
+### `To Run the code `
 - npm run build
 - node server.js
 
@@ -32,14 +32,14 @@
    - const backendHost = "http://localhost:8080/api/tasks";
 
 2. Make Change in Server.js
-   - By Commenting these lines
-   ...*const port = 3000;
-   ...*app.use(express.static(path.join(__dirname, 'build')));
+* By Commenting these lines
+  - const port = 3000;
+  - app.use(express.static(path.join(__dirname, 'build')));
 
    and,
-   - By Uncommenting these lines
-   ...*const port = 8080;
-   ..*app.use(cors());
+* By Uncommenting these lines
+  - const port = 8080;
+  - app.use(cors());
 
 Then run,
 - npm start
