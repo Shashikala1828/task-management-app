@@ -1,22 +1,24 @@
 # Task Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ![image](https://github.com/Shashikala1828/task-management-app/assets/74039065/f942fd15-f477-4c84-aff5-d0826a5715a8)
 
 
-## Available Scripts
+##  Installation:
 
-In the project directory, you can run:
+- Install Node.js,
+- Clone this repo: git clone https://github.com/Shashikala1828/task-management-app.git,
+- Install dependences by writing in console: npm install,
+- Setup module by writing in console: npm link --force,
+- Done, you can use it from your cmd.
 
-### `npm start`
+## Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User-Friendly Interface
+- Development and Production Modes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Documentation
 
-### `npm test`
+
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
