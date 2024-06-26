@@ -24,14 +24,14 @@
 
 ### `To Run the code in Development Mode`
 1. Make Changes in App.js
--By Commenting this line
-   ...*const backendHost = '/api/tasks';
+* By Commenting this line
+- const backendHost = '/api/tasks';
 
    and,
    -By Uncommenting this line
    ...*const backendHost = "http://localhost:8080/api/tasks";
 
-3. Make Change in Server.js
+2. Make Change in Server.js
    - By Commenting these lines
    ...*const port = 3000;
    ...*app.use(express.static(path.join(__dirname, 'build')));
