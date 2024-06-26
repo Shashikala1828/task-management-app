@@ -1,0 +1,187 @@
+/* TaskItem.css */
+/* .task-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+} */
+
+.task-item {
+    /* background-color: #333; */
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+}
+
+/* .task-card {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 15px;
+} */
+
+.task-card {
+    border-radius: 5px;
+    padding: 15px;
+    background-color: inherit; /* Use the random background color */
+}
+
+/* .task-card.completed {
+    background-color: #444;
+} */
+.task-card.completed {
+    opacity: 0.6;
+}
+
+/* .task-header {
+    font-size: 18px;
+    font-weight: bold;
+} */
+
+.task-header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.task-description {
+    margin: 10px 0;
+}
+
+.task-due-date {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.clock-icon {
+    margin-right: 5px;
+}
+
+.task-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.task-actions .action-icon {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.task-actions .action-icon.completed {
+    color: #888;
+}
+
+
+.task-item {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+/* .task-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 300px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} */
+
+.task-card {
+    background: #f6f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    position: relative;
+}
+
+.task-details {
+    margin-bottom: 10px;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.task-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* .task-due-date {
+    color: #888;
+    font-size: 13px; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+} */
+
+.task-due-date {
+    background-color: #ffe5b4; /* Background color for due date */
+    color: #888;
+    font-size: 14px; /* Font size for due date */
+    display: inline-flex; /* Display as inline-flex to size based on content */
+    align-items: center;
+    padding: 5px 10px; /* Padding for due date section */
+    border-radius: 4px; /* Optional: Add border radius */
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.clock-icon {
+    margin-right: 5px; /* Adjust icon spacing */
+    font-size: 16px; /* Optional: Adjust icon size */
+}
+
+.action-icon {
+    font-size: 20px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.important {
+    color: red;
+}
+
+.task-actions {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.edit-button,
+.delete-button,
+.complete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #888; /* Green color for the buttons */
+}
+
+.edit-button:hover .action-icon,
+.delete-button:hover .action-icon,
+.complete-button:hover .action-icon {
+    color: #e6e8eb; 
+}
+
+.action-icon {
+    margin-right: 5px; /* Adjust spacing between icon and text */
+    font-size: 18px;
+}
+
+.task-description {
+    margin-bottom: 5px;
+}
+
+.task-due-date {
+    color: #666;
+    margin-bottom: 10px; /* Increase margin between due date and actions */
+}

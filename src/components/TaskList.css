@@ -1,0 +1,18 @@
+/* TaskList.css */
+/* .task-list-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+}
+.task-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+} */
+
+.task-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
