@@ -25,11 +25,11 @@
 ### `To Run the code in Development Mode`
 1. Make Changes in App.js
 * By Commenting this line
-- const backendHost = '/api/tasks';
+    - const backendHost = '/api/tasks';
 
    and,
-   -By Uncommenting this line
-   ...*const backendHost = "http://localhost:8080/api/tasks";
+*By Uncommenting this line
+   - const backendHost = "http://localhost:8080/api/tasks";
 
 2. Make Change in Server.js
    - By Commenting these lines
