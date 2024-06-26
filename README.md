@@ -1,6 +1,8 @@
 # Task Management App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://github.com/Shashikala1828/task-management-app/assets/74039065/f942fd15-f477-4c84-aff5-d0826a5715a8)
+
 
 ## Available Scripts
 
